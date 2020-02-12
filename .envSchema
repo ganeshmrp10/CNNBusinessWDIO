@@ -1,0 +1,4 @@
+REMOTE_USER=browserstack_user
+REMOTE_PASSWORD=browserstack_pass
+
+MICHONNE_ENV=stage
