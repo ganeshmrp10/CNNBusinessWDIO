@@ -1,0 +1,12 @@
+{
+    "extends": [
+        "./node_modules/@cnnprivate/cnn-scripts/eslint.js",
+        "plugin:wdio/recommended"
+    ],
+    "plugins": ["wdio"],
+    "env": {
+        "browser": true,
+        "node": true,
+        "jest": true
+    }
+}

@@ -1,0 +1,47 @@
+pipeline {
+ agent any
+ stages {
+    stage('Build') {
+       steps{
+          sh 'npm install'
+       }
+    }
+    stage('Test'){
+       steps{
+           sh 'npm run politics'
+       }
+    }
+}
+ post {
+       always {
+           echo 'One way or another, I have finished'
+           sh 'docker logout'
+           script {
+             allure([
+                   includeProperties: false,
+                   jdk: '',
+                   properties: [],
+                   reportBuildPolicy: 'ALWAYS',
+                   results: [[path: '/allure-results']]
+             ])
+           }
+           deleteDir()
+         }
+       success {
+           slackSend channel: '#cnn_politics_qa',
+                 color: 'good',
+                 message: "The pipeline ${currentBuild.fullDisplayName} completed successfully."
+       }
+       unstable {
+           echo 'I am unstable :/'
+       }
+       failure {
+          slackSend channel: '#cnn_politics_qa',
+                 color: 'red',
+                 message: "Attention @here ${env.JOB_NAME} #${env.BUILD_NUMBER} has failed."
+       }
+       changed {
+           echo 'Things were different before...'
+       }
+ }
+}
