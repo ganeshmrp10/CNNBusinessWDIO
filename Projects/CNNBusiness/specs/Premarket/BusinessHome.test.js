@@ -13,7 +13,7 @@ describe("Business Home invoke", function () {
     });
 
     it("Premarket page should be launched", () => {
-        BusinessHome.nOpen("http://juno-biz.cnnio.net/business/markets/premarkets");
+        BusinessHome.nOpen("/business/markets/premarkets");
         browser.maximizeWindow();
     })
 

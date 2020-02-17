@@ -25,11 +25,17 @@ describe("Business Home invoke", function () {
     it("Check for the Currencies Module Change Value", () => {
 
         const elementsCurrenciesChange = BusinessHome.CurrenciesChange
+        var currencyValueArray = [];
+
         if (elementsCurrenciesChange.length == 6) {
             for (var i = 0; i < elementsCurrenciesChange.length; i++) {
-                console.log("Currencies value : " + elementsCurrenciesChange[i].getText());
 
+                currencyValueArray.push(elementsCurrenciesChange[i].getText())
             }
+            console.log("Currency Change Value array " + currencyValueArray)
+            
+        } else {
+            console.error("Incorrect no of currencies change")
         }
 
     })
@@ -37,6 +43,7 @@ describe("Business Home invoke", function () {
     it("Check for the Currencies Module Change Color Code", () => {
 
         const elementsCurrenciesChange = BusinessHome.CurrenciesChange
+        var currencyColorArray = [];
         if (elementsCurrenciesChange.length == 6) {
 
             elementsCurrenciesChange.forEach(link => {
@@ -44,11 +51,57 @@ describe("Business Home invoke", function () {
                 const arrayColor = link.getCSSProperty('color')
                 var parseJSONColor = JSON.stringify(arrayColor['parsed']);
                 var hexColorCode = parseJSONColor.slice(8, 15)
-                console.log("Color code : " + hexColorCode)
+
+                currencyColorArray.push(hexColorCode)
             });
         }
-
+        console.log("Color Code array " + currencyColorArray)
 
     })
+
+
+    it("Verify for the Currencies Module Change Color Code", () => {
+
+        const elementsCurrenciesChange = BusinessHome.CurrenciesChange
+        var currencyValueArray = [];
+
+        for (var i = 0; i < elementsCurrenciesChange.length; i++) {
+
+            currencyValueArray.push(elementsCurrenciesChange[i].getText())
+        }
+
+        var currencyColorArray = [];
+        elementsCurrenciesChange.forEach(link => {
+
+            const arrayColor = link.getCSSProperty('color')
+            var parseJSONColor = JSON.stringify(arrayColor['parsed']);
+            var hexColorCode = parseJSONColor.slice(8, 15)
+
+            currencyColorArray.push(hexColorCode)
+        });
+
+        var mapValueColor = new Map([])
+        currencyValueArray.forEach((key, value) => mapValueColor.set(key, currencyColorArray[value]));
+        console.log(mapValueColor)
+
+        for (var [key, value] of mapValueColor) {
+            checkColorCode(key, value);
+        }
+        
+        function checkColorCode(value, colorCode) {
+            var wholeValue = value.substring(0, value.length-1);
+                if (wholeValue>0 && colorCode == '#00a67a') {
+                    console.log("Positive and has correct color code value")
+                }
+                else if (wholeValue<0 && colorCode == '#ff4b33') {
+                    console.log("Negative and has correct color code value")
+                }
+                else{
+                    console.log("Zero")
+                }
+            
+            }
+    })
+
 
 })
