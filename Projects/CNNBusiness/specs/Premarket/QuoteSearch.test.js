@@ -22,19 +22,24 @@ describe("Business Home invoke", function () {
     })
 
     it("Check for the Quote search", () =>{
+
+        var baseURL = "http://juno-biz.cnnio.net/business/markets/new-quote/"
+        var quoteName ="GOOGL"
+        var expectedURL = baseURL.concat(quoteName)
+
         browser.pause(4000);
         BusinessHome.MarketRibbonModule.scrollIntoView();
-        BusinessHome.PremarketSearchText.setValue("GOOGL") 
+        BusinessHome.PremarketSearchText.setValue(quoteName) 
         browser.pause(10000)
         BusinessHome.QuoteSearchResultOption.keys('Down arrow')
         browser.pause(10000)
         BusinessHome.QuoteSearchFirstResult.keys("\uE007")
         browser.pause(10000)
 
-      var url = browser.getUrl();
-      console.log("The URL is " +url);
+      var redirectedURL = browser.getUrl();
+      console.log("The Redirected URL is " +redirectedURL);
 
-      expect(url).to.equal("http://juno-biz.cnnio.net/business/markets/new-quote/GOOGL"); 
+      expect(redirectedURL).to.equal(expectedURL); 
 
     })
 

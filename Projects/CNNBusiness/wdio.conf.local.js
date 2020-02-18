@@ -16,7 +16,8 @@ specs: ["./Projects/GalleryLeaf/specs/**/*.test.js"],
     QuoteSearch:["./Projects/CNNBusiness/specs/Premarket/QuoteSearch.test.js"],
     PremarketHeader:["./Projects/CNNBusiness/specs/Premarket/PremarketHeader.test.js"],
     Work:["./Projects/CNNBusiness/specs/Premarket/Work.test.js"],
-    Currencies:["./Projects/CNNBusiness/specs/Premarket/Currencies.test.js"]
+    Currencies:["./Projects/CNNBusiness/specs/Premarket/Currencies.test.js"],
+    USStockFutures:["./Projects/CNNBusiness/specs/Premarket/USStockFutures.test.js"]
     
   },
   reporters: ["spec"],

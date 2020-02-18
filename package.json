@@ -15,6 +15,7 @@
         "CNNBusiness:QuoteSearch": "node_modules/.bin/wdio Projects/CNNBusiness/wdio.conf.local.js --suite QuoteSearch",
         "CNNBusiness:PremarketHeader": "node_modules/.bin/wdio Projects/CNNBusiness/wdio.conf.local.js --suite PremarketHeader",
         "CNNBusiness:Work": "node_modules/.bin/wdio Projects/CNNBusiness/wdio.conf.local.js --suite Work",
+        "CNNBusiness:USStockFutures": "node_modules/.bin/wdio Projects/CNNBusiness/wdio.conf.local.js --suite USStockFutures",
         "CNNBusiness:Currencies": "node_modules/.bin/wdio Projects/CNNBusiness/wdio.conf.local.js --suite Currencies"
     },
     "dependencies": {
