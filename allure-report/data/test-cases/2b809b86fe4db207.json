@@ -1,0 +1,58 @@
+{
+  "uid" : "2b809b86fe4db207",
+  "name" : "Commodities Module should be displayed",
+  "fullName" : "Business Home invoke.Commodities Module should be displayed",
+  "historyId" : "f1c3a1f65b02cc75a57cb18f414b8e24",
+  "time" : {
+    "start" : 1582109375237,
+    "stop" : 0,
+    "duration" : -1582109375237
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "unknown",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Business Home invoke"
+  }, {
+    "name" : "testClass",
+    "value" : "Business Home invoke"
+  }, {
+    "name" : "testMethod",
+    "value" : "Commodities Module should be displayed"
+  }, {
+    "name" : "package",
+    "value" : "Business Home invoke"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "2b809b86fe4db207.json",
+  "parameterValues" : [ "chrome" ]
+}

@@ -29,7 +29,7 @@ exports.config = Object.assign(master.config, {
       "browserstack.debug": true,
       "browser": "Chrome",
       "goog:chromeOptions": {
-        "args": ["disable-infobars"]//,"headless", "disable-gpu"]
+        "args": ["disable-infobars","headless", "disable-gpu"]
       },
       "resolution": `1280x1024`,
       "os": "Windows",

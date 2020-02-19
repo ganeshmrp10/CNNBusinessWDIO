@@ -1,0 +1,58 @@
+{
+  "uid" : "154bc1d18943c50f",
+  "name" : "Market Ribbon should be displayed",
+  "fullName" : "Business Home invoke.Market Ribbon should be displayed",
+  "historyId" : "112ea059fba5d1dfab5e2666c50e442d",
+  "time" : {
+    "start" : 1582109374236,
+    "stop" : 0,
+    "duration" : -1582109374236
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "unknown",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Business Home invoke"
+  }, {
+    "name" : "testClass",
+    "value" : "Business Home invoke"
+  }, {
+    "name" : "testMethod",
+    "value" : "Market Ribbon should be displayed"
+  }, {
+    "name" : "package",
+    "value" : "Business Home invoke"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "154bc1d18943c50f.json",
+  "parameterValues" : [ "chrome" ]
+}

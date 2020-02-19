@@ -1,0 +1,56 @@
+{
+  "uid" : "8ef2ef1438d5c86a",
+  "name" : "\"before each\" hook",
+  "fullName" : "Business Home invoke.\"before each\" hook",
+  "historyId" : "ceb37f36bc924007af04b6248a62cb8f",
+  "time" : {
+    "start" : 1582109339804,
+    "stop" : 1582109374235,
+    "duration" : 34431
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Business Home invoke"
+  }, {
+    "name" : "testClass",
+    "value" : "Business Home invoke"
+  }, {
+    "name" : "testMethod",
+    "value" : "\"before each\" hook"
+  }, {
+    "name" : "package",
+    "value" : "Business Home invoke"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "8ef2ef1438d5c86a.json",
+  "parameterValues" : [ "chrome" ]
+}

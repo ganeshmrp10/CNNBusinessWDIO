@@ -1,0 +1,58 @@
+{
+  "uid" : "ff98dd7f32d96577",
+  "name" : "Quote Search Module should be displayed",
+  "fullName" : "Business Home invoke.Quote Search Module should be displayed",
+  "historyId" : "ec3ae002d8418ff547ee18ee0f0c8c96",
+  "time" : {
+    "start" : 1582109374983,
+    "stop" : 0,
+    "duration" : -1582109374983
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "unknown",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Business Home invoke"
+  }, {
+    "name" : "testClass",
+    "value" : "Business Home invoke"
+  }, {
+    "name" : "testMethod",
+    "value" : "Quote Search Module should be displayed"
+  }, {
+    "name" : "package",
+    "value" : "Business Home invoke"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ff98dd7f32d96577.json",
+  "parameterValues" : [ "chrome" ]
+}

@@ -1,21 +1,25 @@
 {
-    "name": "cnn-qa",
+    "name": "cnn-business",
     "version": "3.0.0",
     "description": "boilerplate framework for e2e testing using node and webdriverio",
     "main": "wdio.config.js",
     "repository": {
         "type": "git",
-        "url": "https://github.com/turnercode/cnn-qa.git"
+        "url": "https://github.com/ganeshmrp10/CNNBusinessWDIO.git"
     },
     "author": "jonathan terry",
     "license": "MIT",
     "scripts": {
+        "allure": "node_modules/.bin/allure generate ./allure-results -c && allure open",
+        
+        "CNNBusiness:TwoTestCaseTest": "node_modules/.bin/wdio Projects/CNNBusiness/wdio.conf.local.js --suite TwoTestCaseTest", 
+        
         "CNNBusiness:BusinessHome": "node_modules/.bin/wdio Projects/CNNBusiness/wdio.conf.local.js --suite BusinessHome",
         "CNNBusiness:MarketRibbon": "node_modules/.bin/wdio Projects/CNNBusiness/wdio.conf.local.js --suite MarketRibbon",
         "CNNBusiness:QuoteSearch": "node_modules/.bin/wdio Projects/CNNBusiness/wdio.conf.local.js --suite QuoteSearch",
         "CNNBusiness:PremarketHeader": "node_modules/.bin/wdio Projects/CNNBusiness/wdio.conf.local.js --suite PremarketHeader",
-        "CNNBusiness:Work": "node_modules/.bin/wdio Projects/CNNBusiness/wdio.conf.local.js --suite Work",
         "CNNBusiness:USStockFutures": "node_modules/.bin/wdio Projects/CNNBusiness/wdio.conf.local.js --suite USStockFutures",
+        "CNNBusiness:PremarketAll": "node_modules/.bin/wdio Projects/CNNBusiness/wdio.conf.local.js --suite PremarketAll",
         "CNNBusiness:Currencies": "node_modules/.bin/wdio Projects/CNNBusiness/wdio.conf.local.js --suite Currencies"
     },
     "dependencies": {
@@ -49,6 +53,7 @@
         "@babel/plugin-transform-runtime": "^7.4.4",
         "@babel/preset-env": "^7.4.4",
         "@babel/register": "^7.4.4",
+        "@wdio/allure-reporter": "^5.18.6",
         "@wdio/browserstack-service": "^5.8.0",
         "@wdio/cli": "^5.8.1",
         "@wdio/devtools-service": "^5.0.0",

@@ -74,6 +74,7 @@ class BusinessHome extends Page {
   get PremarketHeader() {
     return $("h1[class*='PageHeader']");
   }
+  
 
   get CurrenciesHeader() {
     return $("//div[@name='anchor-currencies']//h2[contains(@class,'titlestyles')]");

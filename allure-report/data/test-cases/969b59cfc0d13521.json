@@ -1,0 +1,58 @@
+{
+  "uid" : "969b59cfc0d13521",
+  "name" : "Bonds & Interests Module should be displayed",
+  "fullName" : "Business Home invoke.Bonds & Interests Module should be displayed",
+  "historyId" : "8894d5fb9f023edae203bb77a8bf0d3e",
+  "time" : {
+    "start" : 1582109375258,
+    "stop" : 0,
+    "duration" : -1582109375258
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "unknown",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Business Home invoke"
+  }, {
+    "name" : "testClass",
+    "value" : "Business Home invoke"
+  }, {
+    "name" : "testMethod",
+    "value" : "Bonds & Interests Module should be displayed"
+  }, {
+    "name" : "package",
+    "value" : "Business Home invoke"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "969b59cfc0d13521.json",
+  "parameterValues" : [ "chrome" ]
+}

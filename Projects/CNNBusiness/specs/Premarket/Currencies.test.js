@@ -22,7 +22,7 @@ describe("Business Home invoke", function () {
         expect(BusinessHome.CurrenciesModule.isDisplayed()).to.be.true
     })
 
-    it("Check for the Currencies Module Currency Value", () => {
+    it("Check for the Currency Name in the Currencies Module ", () => {
 
         const elementsCurrenciesName = BusinessHome.CurrenciesName
         var currencyNameArray = [];
@@ -35,7 +35,8 @@ describe("Business Home invoke", function () {
             
     })
 
-    it("Check for the Currencies Module Change Value", () => {
+
+    it("Check for the Change Value in the Currencies Module", () => {
 
         const elementsCurrenciesChange = BusinessHome.CurrenciesChange
         var currencyValueArray = [];
@@ -53,7 +54,7 @@ describe("Business Home invoke", function () {
 
     })
 
-    it("Check for the Currencies Module Change Color Code", () => {
+    it("Check for the Color Code value of the Change", () => {
 
         const elementsCurrenciesChange = BusinessHome.CurrenciesChange
         var currencyColorArray = [];
@@ -72,7 +73,7 @@ describe("Business Home invoke", function () {
 
     })
 
-    it("Verify for the Currencies Module Change Color Code", () => {
+    it("Verify the correct Color code for the Change value in the Currencies Module", () => {
 
         const elementsCurrenciesChange = BusinessHome.CurrenciesChange
         var currencyValueArray = [];

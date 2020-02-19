@@ -1,0 +1,152 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "Business Home invoke",
+    "children" : [ {
+      "name" : "Premarket page should be launched",
+      "uid" : "6ca49172335c75cf",
+      "parentUid" : "2a3ab4e99a1cc18ea432a49b7fa01770",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1582109339789,
+        "stop" : 0,
+        "duration" : -1582109339789
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Market Ribbon should be displayed",
+      "uid" : "154bc1d18943c50f",
+      "parentUid" : "2a3ab4e99a1cc18ea432a49b7fa01770",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1582109374236,
+        "stop" : 0,
+        "duration" : -1582109374236
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Quote Search Module should be displayed",
+      "uid" : "ff98dd7f32d96577",
+      "parentUid" : "2a3ab4e99a1cc18ea432a49b7fa01770",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1582109374983,
+        "stop" : 0,
+        "duration" : -1582109374983
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "US Stock Futures Module should be displayed",
+      "uid" : "440680b5eeae96d7",
+      "parentUid" : "2a3ab4e99a1cc18ea432a49b7fa01770",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1582109375023,
+        "stop" : 0,
+        "duration" : -1582109375023
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Latest Market News Section should be displayed",
+      "uid" : "2dea09766aae2c78",
+      "parentUid" : "2a3ab4e99a1cc18ea432a49b7fa01770",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1582109375072,
+        "stop" : 0,
+        "duration" : -1582109375072
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Whats Moving Module should be displayed",
+      "uid" : "b604fd18333f0620",
+      "parentUid" : "2a3ab4e99a1cc18ea432a49b7fa01770",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1582109375177,
+        "stop" : 0,
+        "duration" : -1582109375177
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "World Markets Module should be displayed",
+      "uid" : "eec24300d9dc8534",
+      "parentUid" : "2a3ab4e99a1cc18ea432a49b7fa01770",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1582109375198,
+        "stop" : 0,
+        "duration" : -1582109375198
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Currencies Module should be displayed",
+      "uid" : "76639626c91bac1f",
+      "parentUid" : "2a3ab4e99a1cc18ea432a49b7fa01770",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1582109375218,
+        "stop" : 0,
+        "duration" : -1582109375218
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Commodities Module should be displayed",
+      "uid" : "2b809b86fe4db207",
+      "parentUid" : "2a3ab4e99a1cc18ea432a49b7fa01770",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1582109375237,
+        "stop" : 0,
+        "duration" : -1582109375237
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "\"before each\" hook",
+      "uid" : "5eb635bdb48a169a",
+      "parentUid" : "2a3ab4e99a1cc18ea432a49b7fa01770",
+      "status" : "passed",
+      "time" : {
+        "start" : 1582109375258,
+        "stop" : 1582109375280,
+        "duration" : 22
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Bonds & Interests Module should be displayed",
+      "uid" : "969b59cfc0d13521",
+      "parentUid" : "2a3ab4e99a1cc18ea432a49b7fa01770",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1582109375258,
+        "stop" : 0,
+        "duration" : -1582109375258
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    } ],
+    "uid" : "2a3ab4e99a1cc18ea432a49b7fa01770"
+  } ]
+}

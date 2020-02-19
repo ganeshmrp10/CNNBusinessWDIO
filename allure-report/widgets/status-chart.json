@@ -1,0 +1,111 @@
+[ {
+  "uid" : "2b809b86fe4db207",
+  "name" : "Commodities Module should be displayed",
+  "time" : {
+    "start" : 1582109375237,
+    "stop" : 0,
+    "duration" : -1582109375237
+  },
+  "status" : "unknown",
+  "severity" : "normal"
+}, {
+  "uid" : "b604fd18333f0620",
+  "name" : "Whats Moving Module should be displayed",
+  "time" : {
+    "start" : 1582109375177,
+    "stop" : 0,
+    "duration" : -1582109375177
+  },
+  "status" : "unknown",
+  "severity" : "normal"
+}, {
+  "uid" : "ff98dd7f32d96577",
+  "name" : "Quote Search Module should be displayed",
+  "time" : {
+    "start" : 1582109374983,
+    "stop" : 0,
+    "duration" : -1582109374983
+  },
+  "status" : "unknown",
+  "severity" : "normal"
+}, {
+  "uid" : "5eb635bdb48a169a",
+  "name" : "\"before each\" hook",
+  "time" : {
+    "start" : 1582109375258,
+    "stop" : 1582109375280,
+    "duration" : 22
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "969b59cfc0d13521",
+  "name" : "Bonds & Interests Module should be displayed",
+  "time" : {
+    "start" : 1582109375258,
+    "stop" : 0,
+    "duration" : -1582109375258
+  },
+  "status" : "unknown",
+  "severity" : "normal"
+}, {
+  "uid" : "2dea09766aae2c78",
+  "name" : "Latest Market News Section should be displayed",
+  "time" : {
+    "start" : 1582109375072,
+    "stop" : 0,
+    "duration" : -1582109375072
+  },
+  "status" : "unknown",
+  "severity" : "normal"
+}, {
+  "uid" : "6ca49172335c75cf",
+  "name" : "Premarket page should be launched",
+  "time" : {
+    "start" : 1582109339789,
+    "stop" : 0,
+    "duration" : -1582109339789
+  },
+  "status" : "unknown",
+  "severity" : "normal"
+}, {
+  "uid" : "154bc1d18943c50f",
+  "name" : "Market Ribbon should be displayed",
+  "time" : {
+    "start" : 1582109374236,
+    "stop" : 0,
+    "duration" : -1582109374236
+  },
+  "status" : "unknown",
+  "severity" : "normal"
+}, {
+  "uid" : "440680b5eeae96d7",
+  "name" : "US Stock Futures Module should be displayed",
+  "time" : {
+    "start" : 1582109375023,
+    "stop" : 0,
+    "duration" : -1582109375023
+  },
+  "status" : "unknown",
+  "severity" : "normal"
+}, {
+  "uid" : "76639626c91bac1f",
+  "name" : "Currencies Module should be displayed",
+  "time" : {
+    "start" : 1582109375218,
+    "stop" : 0,
+    "duration" : -1582109375218
+  },
+  "status" : "unknown",
+  "severity" : "normal"
+}, {
+  "uid" : "eec24300d9dc8534",
+  "name" : "World Markets Module should be displayed",
+  "time" : {
+    "start" : 1582109375198,
+    "stop" : 0,
+    "duration" : -1582109375198
+  },
+  "status" : "unknown",
+  "severity" : "normal"
+} ]
